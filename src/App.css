@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(85, 85, 224);
+    margin: 0 auto;
+
+
+}
+
+.App {
+   text-align: center;
+   
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight:400;
+    font-family: Montserrat;
+    font-style: italic;
+}
+
+form {
+    margin: 0px 90px 100px 0px
+
+}
+
+input {
+    padding: 0;
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.addButton {
+    margin-left: 20px;
+    height: 54px;
+    width: 100px;
+    border-radius: 15px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: black;
+    color: grey;
+}
+
+
+.list {
+    margin-left: 420px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.task {
+    position: relative;
+    padding: 0;
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 50px;
+    left: 200px;
+    
+}
+
+li {
+    position: absolute;
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 20px;
+    left: 10px;
+}
+
+.deleteButton {
+    position: absolute;
+    left: 420px;
+    background-color: white;
+    height: 54px;
+    width: 54px;
+    border-radius: 50px;
+}
